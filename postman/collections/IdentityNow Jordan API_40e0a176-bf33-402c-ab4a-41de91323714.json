@@ -58379,9 +58379,9 @@
 							"query": [
 								{
 									"key": "offset",
-									"value": "0",
+									"value": "5",
 									"description": "Offset into the full result set. Usually specified with *limit* to paginate through the results.\nSee [V3 API Standard Collection Parameters](https://developer.sailpoint.com/idn/api/standard-collection-parameters) for more information.",
-									"disabled": true
+									"disabled": false
 								},
 								{
 									"key": "limit",
