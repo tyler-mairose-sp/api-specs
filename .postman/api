@@ -1,0 +1,17 @@
+id = d1f0beec-0c7b-49c7-b0e1-134dc2d7116a
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"23226990-a3d1b29c-483a-414d-b010-1c2edf79ace0","path":"IdentityNow V3 Test API.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"schema.yaml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
+rootFiles[] = schema.yaml
