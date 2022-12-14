@@ -1,4 +1,4 @@
-type : object
+type: object
 properties:
   locale:
     type: string
@@ -9,5 +9,6 @@ properties:
   text:
     type: string
     description: Actual text of the error message in the indicated locale.
-    example: The request was syntactically correct but its content is semantically invalid.
-    
+    example:
+      The request was syntactically correct but its content is semantically
+      invalid.
