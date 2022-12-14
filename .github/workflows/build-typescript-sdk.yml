@@ -44,11 +44,12 @@ jobs:
           cd sdk-ts
           java -jar openapi-generator-cli.jar generate -i ../idn/sailpoint-api.beta.yaml -g typescript-axios -o sdk-output/beta --global-property skipFormModel=false --config sdk-resources/beta-config.yaml --api-name-suffix BetaApi --model-name-suffix Beta
 
-      - name: Build Beta SDK
+      - name: Build Typescript SDK
         id: buildSDK
         if: steps.buildBeta.outcome == 'success'
         run: |
           cd sdk-ts/sdk-output
+          npm install
           npm run build
       
       - name: After SDK Build
